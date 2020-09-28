@@ -10,7 +10,7 @@ String size;
 String ig;
 
 String username = "machdesigns.sk@gmail.com";
-String password = "roboamato";
+String password = "dopici";
 
 class Page2 extends StatelessWidget {
   @override
@@ -128,7 +128,7 @@ class Page2 extends StatelessWidget {
                               .add('machdesigns.sk@gmail.com') //recipent email
 
                           ..subject =
-                              'order drom $ig ${DateTime.now()}' //subject of the email
+                              'order from $ig ${DateTime.now()}' //subject of the email
                           ..text =
                               'ig = $ig, size = $size, email = $email'; //body of the email
                         try {
